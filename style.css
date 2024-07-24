@@ -1,0 +1,146 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+}
+
+
+header {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+span {
+    color: lightblue ;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 4rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fcfafa;
+    transition: color 0.3s;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-image: url(image/gojo.jpg);
+    opacity: 0.70;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro-text {
+    max-width: 600px;
+    margin-top: 15rem;
+}
+
+.intro-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.intro-text p {
+    font-size: 1.7rem;
+    font-weight: 510;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#about {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#about h2 {
+    margin-bottom: 25px;
+}
+
+#about img {
+    height: 12rem;
+    width:12rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#about h3 {
+    font-size: 1.5em;
+    color: lightblue;
+}
+
+#about p {
+    font-size: 23px;
+    line-height: 1.3;
+    padding-top: 15px;
+    margin: 0 auto; 
+    max-width: 800px;
+}
+
+#about .social {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 1.7rem;
+}
+
+#about .social .socialLinks {
+    color: #fff;
+    margin: 10px;
+}
