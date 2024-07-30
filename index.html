@@ -1,63 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Samrat SB Wosti - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main>
-        <section id="home" class="intro">
-            <header>
-                <h1>Samrat SB Wosti</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#projects">My Projects</a></li>
-                        <li><a href="#contact">Contact Me</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="intro-text">
-                <h2>Transforming Ideas into Reality.</h2>
-                <p>As a passionate developer, I bring innovative ideas to life through clean, efficient code and thoughtful design.<span> Let's create something amazing together!</span></p>
+      <section id="home" class="intro">
+        <header>
+          <h1>Samrat SB Wosti</h1>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#projects">My Projects</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="intro-text">
+          <h2>Transforming Ideas into Reality.</h2>
+          <p>
+            As a passionate developer, I bring innovative ideas to life through
+            clean, efficient code and thoughtful design.<span>
+              Let's create something amazing together!</span
+            >
+          </p>
+        </div>
+        <div class="hero-section-overlay"></div>
+      </section>
+
+      <secton id="about" class="container flex-col-container">
+        <h2>About Me</h2>
+        <div class="image-container">
+          <img src="image/luffy-pfp.jpg" alt="my-photo" />
+        </div>
+        <div class="flex-col-container">
+          <h3>Samrat Wosti</h3>
+          <p>
+            I am a student studying in class 12 at SS College. I have learned
+            some coding, including HTML and CSS, by myself through the internet
+            and my own research. I love to learn different new things in my
+            life.
+          </p>
+          <div class="social">
+            <a
+              class="socialLinks"
+              href="https://www.facebook.com/samrat.wosti.1/"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              class="socialLinks"
+              href="https://github.com/Samrat-Wosti"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="socialLinks" href="https://x.com/sb_wosti" target="_blank"
+              ><i class="fa-brands fa-square-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </secton>
+
+      <section id="projects" class="container flex-col-container">
+        <h2>My Projects</h2>
+        <p class="about-projects">
+          I have built many projects till the date applying the knowledge I have
+          gained so far. I have built applications using pure HTMl/CSS only.I
+          have mentioned some of my hand-picked projects here. You can find all
+          other projects in my Github.
+        </p>
+        <div class="projects-div">
+          <div class="project-img">
+            <img src="image/social-link-profile.png" alt="Project Image" />
+          </div>
+          <div class="project-description">
+            <h3>Social Link Profile</h3>
+            <p>
+              This project is a personal profile card designed using HTML and
+              CSS. It features a user profile picture, name, location, and a
+              brief description of the user as a front-end developer. The card
+              also includes buttons linking to various social media and
+              professional platforms such as GitHub, Frontend Mentor, Facebook,
+              Twitter, and Instagram. The sleek, dark-themed design provides a
+              modern and professional look
+            </p>
+            <a
+              href="https://github.com/Samrat-Wosti/Social-link-profile"
+              target="_blank"
+            >
+              <button>View Project</button>
+            </a>
+          </div>
+        </div>
+        <div class="projects-div">
+          <div class="project-description">
+            <h3>Cafe Menu</h3>
+            <p>
+              This project showcases a visually appealing and functional menu
+              for "Camper Cafe," designed using HTML and CSS. The menu is
+              divided into sections for coffee and desserts, providing a clear
+              and easy-to-read layout for customers. The background features
+              coffee beans, adding to the theme and enhancing the visual
+              experience.
+            </p>
+            <a href="#" target="_blank">
+              <button>View Project</button>
+            </a>
+          </div>
+          <div class="project-img">
+            <img src="image/cafe-menu.png" alt="Project Image" />
+          </div>
+        </div>
+        <div class="projects-div">
+          <div class="project-img">
+            <img src="image/parawlex-website.png" alt="Project Image" />
+          </div>
+          <div class="project-description">
+            <h3>Parallax Website</h3>
+            <p>
+              This project is a parallax website created using HTML and CSS. The
+              site features a striking cityscape background with a sunset sky,
+              creating an engaging visual experience. The main section
+              prominently displays the name "Samrat Wosti" against the backdrop,
+              utilizing the parallax effect to add depth and motion as users
+              scroll.
+            </p>
+            <a
+              href="https://github.com/Samrat-Wosti/Parallax-Website"
+              target="_blank"
+            >
+              <button>View Project</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Tools I Use</h2>
+        <div class="skill-container">
+          <span class="devicon--html5"></span>
+          <span class="devicon--css3"></span>
+          <span class="logos--javascript"></span>
+          <span class="devicon--git"></span>
+          <span class="devicon--vscode"></span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Reach out to me!</h2>
+        <div id="contact-container">
+          <h3>I am interested to talk to you!</h3>
+          <div id="contact-form">
+            <div class="form-field">
+              <input type="text" placeholder="Enter your name..." required />
             </div>
-        </section>
-        <secton id="about">
-            <h2>About Me</h2>
-            <img src="image/luffy-pfp.jpg" alt="my-photo">
-            <h3>Samrat Wosti</h3>
-            <p> I am a student studying in class 12 at SS College. I have learned some coding, including HTML and CSS, by myself through the internet and my own research. I love to learn different new things in my life.</p>
-            <div class="social">
-                <a class="socialLinks" href="https://www.facebook.com/samrat.wosti.1/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a class="socialLinks" href="https://github.com/Samrat-Wosti" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a class="socialLinks" href="https://x.com/sb_wosti" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <div class="form-field">
+              <input type="email" placeholder="Enter your email..." required />
             </div>
-        </secton>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project-container">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of project 1. This project is about...</p>
-                    <a href="#" class="project-link">View Project</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of project 2. This project is about...</p>
-                    <a href="#" class="project-link">View Project</a>
-                </div>
-                <!-- Add more projects as needed -->
+            <div class="form-field">
+              <textarea placeholder="Leave your message..." required></textarea>
             </div>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-        </section>
+            <div class="form-field">
+              <a href=""><button type="submit">Send</button></a>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>Samrat SB Wosti . copyright &copy; 2024</p>
+        </footer>
+      </section>
     </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
