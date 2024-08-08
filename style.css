@@ -121,7 +121,10 @@ display: none;
 
 .intro-text {
   max-width: 700px;
-  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
   z-index: 2;
 }
 
@@ -178,7 +181,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 #about .social .socialLinks {
@@ -188,11 +191,11 @@ h2 {
 
 #projects h2 {
   font-size: 2.4rem;
+  margin: 0;
 }
 
 .about-projects {
   font-size: 20px;
-  margin: 1.2rem auto;
 }
 
 .projects-div {
@@ -311,6 +314,11 @@ footer {
 }
 
 /* icons */
+
+.skills-section {
+  margin-top: 1.4rem;
+}
+
 .skill-container {
     display: flex;
     align-items: center;
@@ -397,10 +405,6 @@ footer {
     font-size: 1.5rem;
   }
    
-  .intro-text {
-    margin-top: 16rem;
-  }
-
   .intro-text h2 {
     font-size: 2rem;
   }
@@ -413,19 +417,21 @@ footer {
     font-size: 2.5rem;
   }
 
+  .about-projects {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
   .project-img,
   .project-description {
     width: 100%;
   }
 
-  .project-description {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    padding-bottom: 0.7rem;
-  }
-
+    .project-description {
+      text-align: left;
+      padding: 1rem;
+    }
+  
   .projects-div {
     flex-direction: column;
   }
@@ -469,10 +475,6 @@ footer {
     font-size: 1.2rem;
   }
    
-  .intro-text {
-    margin-top: 20rem;
-  }
-
   .intro-text h2 {
     font-size: 1.7rem;
   }
@@ -483,6 +485,10 @@ footer {
 
   #about {
     margin-bottom: 0;
+  }
+
+  #about p {
+    font-size: 16px;
   }
    
   .skill-container {
